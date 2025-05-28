@@ -1,0 +1,25 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 10px;
+}
+header, footer {
+  text-align: center;
+  padding: 10px;
+}
+nav button {
+  margin: 5px;
+  padding: 10px;
+}
+#produtos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.produto {
+  border: 1px solid #ccc;
+  padding: 10px;
+  width: 200px;
+}
+#carrinho {
+  margin-top: 20px;
+}

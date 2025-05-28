@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <title>Mari'a Cosméticos</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Mari'a Cosméticos</h1>
+    <nav>
+      <button onclick="filtrarCategoria('Todos')">Todos</button>
+      <button onclick="filtrarCategoria('Avon')">Avon</button>
+      <button onclick="filtrarCategoria('Natura')">Natura</button>
+      <button onclick="filtrarCategoria('O Boticário')">O Boticário</button>
+      <button onclick="filtrarCategoria('Jequiti')">Jequiti</button>
+      <button onclick="filtrarCategoria('Eudora')">Eudora</button>
+    </nav>
+  </header>
+
+  <main>
+    <section id="produtos"></section>
+    <aside id="carrinho">
+      <h2>Carrinho</h2>
+      <ul id="itens-carrinho"></ul>
+      <button onclick="finalizarCompra()">Finalizar Compra</button>
+    </aside>
+  </main>
+
+  <footer>
+    <a href="chat.html">Fale com a gente</a>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

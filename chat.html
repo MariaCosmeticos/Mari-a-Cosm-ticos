@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <title>Chat - Mari'a Cosméticos</title>
+</head>
+<body>
+  <h1>Fale conosco</h1>
+  <p>Você pode nos mandar uma mensagem pelo WhatsApp clicando abaixo:</p>
+  <a href="https://wa.me/SEUNUMERO" target="_blank">Abrir WhatsApp</a>
+
+  <p>Ou envie sua dúvida:</p>
+  <form onsubmit="enviarMensagem(event)">
+    <input type="text" id="nome" placeholder="Seu nome" required /><br>
+    <textarea id="mensagem" placeholder="Sua dúvida..." required></textarea><br>
+    <button type="submit">Enviar</button>
+  </form>
+
+  <script>
+    function enviarMensagem(e) {
+      e.preventDefault();
+      alert("Mensagem enviada! Responderemos em breve.");
+    }
+  </script>
+</body>
+</html>
